@@ -1,0 +1,28 @@
+<div class="four wide column">
+        <div class="ui cards">
+            <div class="card">
+                <div class="extra content">
+                    <div class="header">
+                        Trips Taken
+                    </div>
+                </div>
+                <div class="extra content">
+                    <div class="ui middle aligned selection list">
+                        {% for destination in destinations %}
+                        <div class="item">
+                            <img class="ui avatar image" src="static/images/profile_small.jpg">
+                            <div class="content">
+                                <div class="header">{{destination}}</div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="extra content">
+                    <a href='/create' class="ui right floated button positive">Create New
+                        Trip</a>
+                </div>
+            </div>
+        </div>
+    </div>

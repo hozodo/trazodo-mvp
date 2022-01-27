@@ -1,0 +1,155 @@
+{% extends "index.html" %}
+
+{% block content %}
+<br>
+<br>
+<br>
+<br>
+<div class="ui container">
+    <div class="row">
+        <div class="ui fluid icon input focus">
+            <input type="text" placeholder="Search friends...">
+            <i class="inverted circular search link icon"></i>
+        </div>
+    </div>
+    <br>
+    <div class="ui grid">
+        <div class="four wide column">
+            <div class="row">
+                <div class="ui cards">
+                    <div class="card">
+                        <div class="content">
+                            <img class="right floated mini ui image" src="assets/images/profile_small.jpg">
+                            <div class="header">
+                                Sudhakar Camilos
+                            </div>
+                            <div class="meta">
+                                @sudhakar
+                            </div>
+                            <div class="description">
+                                Elliot requested permission to view your contact details
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <div class="ui two buttons">
+                                <div class="ui basic green button">Approve</div>
+                                <div class="ui basic red button">Decline</div>
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <div class="header">
+                                Friends
+                            </div>
+                            <br>
+                            <div class="ui grid">
+                                <div class="four wide column">
+                                    <img class="ui mini image" src="assets/images/profile_small.jpg">
+                                </div>
+                                <div class="four wide column">
+                                    <img class="ui mini image" src="assets/images/profile_small.jpg">
+                                </div>
+                                <div class="four wide column">
+                                    <img class="ui mini image" src="assets/images/profile_small.jpg">
+                                </div>
+                                <div class="four wide column">
+                                    <img class="ui mini image" src="assets/images/profile_small.jpg">
+                                </div>
+                                <div class="four wide column">
+                                    <img class="ui mini image" src="assets/images/profile_small.jpg">
+                                </div>
+                                <div class="four wide column">
+                                    <img class="ui mini image" src="assets/images/profile_small.jpg">
+                                </div>
+                                <div class="four wide column">
+                                    <img class="ui mini image" src="assets/images/profile_small.jpg">
+                                </div>
+                                <div class="four wide column">
+                                    <img class="ui mini image" src="assets/images/profile_small.jpg">
+                                </div>
+                                <div class="four wide column">
+                                    <img class="ui mini image" src="assets/images/profile_small.jpg">
+                                </div>
+                                <div class="four wide column">
+                                    <img class="ui mini image" src="assets/images/profile_small.jpg">
+                                </div>
+                                <div class="four wide column">
+                                    <img class="ui mini image" src="assets/images/profile_small.jpg">
+                                </div>
+                                <div class="four wide column">
+                                    <img class="ui mini image" src="assets/images/profile_small.jpg">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="ui doubling cards">
+                    <div class="card">
+                        <div class="content">
+                            <img class="right floated mini ui image" src="assets/images/profile_small.jpg">
+                            <div class="header">
+                                Elliot Fu
+                            </div>
+                            <div class="meta">
+                                Friends of Veronika
+                            </div>
+                            <div class="description">
+                                Elliot requested permission to view your contact details
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <div class="ui two buttons">
+                                <div class="ui basic green button">Approve</div>
+                                <div class="ui basic red button">Decline</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="eight wide column">
+            <app-requests></app-requests>
+        </div>
+        <div class="four wide column">
+            <div class="ui cards">
+                <div class="card">
+                    <div class="extra content">
+                        <div class="header">
+                            Trips Taken
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <div class="ui middle aligned selection list">
+                            <div class="item">
+                                <img class="ui avatar image" src="assets/images/profile_small.jpg">
+                                <div class="content">
+                                    <div class="header">Helen</div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img class="ui avatar image" src="assets/images/profile_small.jpg">
+                                <div class="content">
+                                    <div class="header">Christian</div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img class="ui avatar image" src="assets/images/profile_small.jpg">
+                                <div class="content">
+                                    <div class="header">Daniel</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="extra content">
+                        <button routerLink='/create' class="ui right floated button positive">Create New
+                            Trip</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

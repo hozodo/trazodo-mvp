@@ -1,0 +1,99 @@
+{'concepts': [
+        {'type': 'LOCATION', 'match': 'AMBIG', 'domainValues': [
+                {'ids': [
+                        {'value': '1079', 'src': 'Gaia', 'type': 'province_state'
+                        }
+                    ], 'value': 'Dubai, United Arab Emirates', 'score': 66.23063246126493, 'text': 'dubai'
+                },
+                {'ids': [
+                        {'value': '6053839', 'src': 'Gaia', 'type': 'city'
+                        }
+                    ], 'value': 'Dubai, Dubai, United Arab Emirates', 'score': 28.293539920413174, 'text': 'dubai'
+                }
+            ]
+        }
+    ], 'result': {'regions': [
+            {'id': '1079', 'name': 'Dubai, United Arab Emirates', 'type': 'province_state', 'center': {'lat': 25.110714, 'lng': 55.394882
+                }
+            },
+            {'id': '553248635974547388', 'name': 'Dubai , United Arab Emirates', 'type': 'multi_city_vicinity', 'center': {'lat': 25.266839, 'lng': 55.297733
+                }
+            },
+            {'id': '6053839', 'name': 'Dubai, Dubai, United Arab Emirates', 'type': 'city', 'center': {'lat': 25.27063, 'lng': 55.30037
+                }
+            },
+            {'id': '4347972', 'name': 'Dubai, United Arab Emirates (DXB-Dubai Intl.)', 'type': 'airport', 'center': {'lat': 25.249077, 'lng': 55.352795
+                }
+            },
+            {'id': '6233649', 'name': 'Dubai Coast, United Arab Emirates', 'type': 'city', 'center': {'lat': 25.116728, 'lng': 55.130471
+                }
+            },
+            {'id': '553248635318493665', 'name': 'Dubai II, Dourados, Brazil', 'type': 'neighborhood', 'center': {'lat': -22.258289, 'lng': -54.768726
+                }
+            },
+            {'id': '553248635318498467', 'name': 'Dubai III, Dourados, Brazil', 'type': 'neighborhood', 'center': {'lat': -22.259522, 'lng': -54.766412
+                }
+            },
+            {'id': '553248633981691183', 'name': 'Old Dubai, United Arab Emirates', 'type': 'neighborhood', 'center': {'lat': 25.267167, 'lng': 55.302386
+                }
+            },
+            {'id': '6054337', 'name': 'Bur Dubai, Dubai, United Arab Emirates', 'type': 'neighborhood', 'center': {'lat': 25.229361, 'lng': 55.308936
+                }
+            },
+            {'id': '6142656', 'name': 'Downtown Dubai, Dubai, United Arab Emirates', 'type': 'neighborhood', 'center': {'lat': 25.191682, 'lng': 55.273231
+                }
+            },
+            {'id': '553248621526915767', 'name': 'Dubai Palace, Bahawalpur, Pakistan', 'type': 'point_of_interest', 'center': {'lat': 29.38476, 'lng': 71.66615
+                }
+            },
+            {'id': '6083273', 'name': 'Ski Dubai, Dubai, United Arab Emirates', 'type': 'point_of_interest', 'center': {'lat': 25.119804, 'lng': 55.199652
+                }
+            },
+            {'id': '553248635975094925', 'name': 'Dubai Waterfront, United Arab Emirates', 'type': 'point_of_interest', 'center': {'lat': 24.955557, 'lng': 54.909443
+                }
+            },
+            {'id': '553248635974846046', 'name': 'Ain Dubai, Dubai, United Arab Emirates', 'type': 'point_of_interest', 'center': {'lat': 25.080022, 'lng': 55.123259
+                }
+            },
+            {'id': '553248621532628416', 'name': 'iFly Dubai, Dubai, United Arab Emirates', 'type': 'point_of_interest', 'center': {'lat': 25.25633, 'lng': 55.30316
+                }
+            },
+            {'id': '6123356', 'name': 'Dubai Mall, Dubai, United Arab Emirates', 'type': 'point_of_interest', 'center': {'lat': 25.199645, 'lng': 55.280626
+                }
+            },
+            {'id': '553248622847106106', 'name': 'Dubai Opera, Dubai, United Arab Emirates', 'type': 'point_of_interest', 'center': {'lat': 25.196056, 'lng': 55.270054
+                }
+            },
+            {'id': '6083295', 'name': 'Dubai Creek, Dubai, United Arab Emirates', 'type': 'point_of_interest', 'center': {'lat': 25.241077, 'lng': 55.325418
+                }
+            },
+            {'id': '553248634947632760', 'name': 'Dubai Frame, Dubai, United Arab Emirates', 'type': 'point_of_interest', 'center': {'lat': 25.236288, 'lng': 55.300499
+                }
+            },
+            {'id': '6147415', 'name': 'Dubai Marina, Dubai, United Arab Emirates', 'type': 'point_of_interest', 'center': {'lat': 25.07785, 'lng': 55.139557
+                }
+            }
+        ], 'hotels': [
+            {'id': '7610', 'altid': '7610', 'name': 'Crowne Plaza Dubai, Dubai', 'score': 18.479773, 'city': 'Dubai', 'country': 'ARE'
+            },
+            {'id': '12592064', 'altid': '12592064', 'name': 'Jal Tower Dubai, Dubai', 'score': 18.479773, 'city': 'Dubai', 'state': 'Dubai', 'country': 'ARE'
+            },
+            {'id': '6899004', 'altid': '6899004', 'name': 'Sofitel Dubai Downtown, Dubai', 'score': 18.479773, 'city': 'Dubai', 'country': 'ARE'
+            },
+            {'id': '34130605', 'altid': '34130605', 'name': 'Westminster Dubai Mall, Dubai', 'score': 18.479773, 'city': 'Dubai', 'state': 'Dubai', 'country': 'ARE'
+            },
+            {'id': '559080', 'altid': '559080', 'name': 'Hilton Dubai Jumeirah, Dubai', 'score': 18.479773, 'city': 'Dubai', 'country': 'ARE'
+            },
+            {'id': '795905', 'altid': '795905', 'name': 'Dusit Thani Dubai, Dubai', 'score': 18.479773, 'city': 'Dubai', 'country': 'ARE'
+            },
+            {'id': '860152', 'altid': '860152', 'name': 'Fairmont Dubai, Dubai', 'score': 18.479773, 'city': 'Dubai', 'country': 'ARE'
+            },
+            {'id': '850069', 'altid': '850069', 'name': 'Hilton Dubai Creek, Dubai', 'score': 18.479773, 'city': 'Dubai', 'country': 'ARE'
+            },
+            {'id': '15508095', 'altid': '15508095', 'name': 'Metropolitan Hotel Dubai, Dubai', 'score': 18.479773, 'city': 'Dubai', 'country': 'ARE'
+            },
+            {'id': '20321', 'altid': '20321', 'name': 'Grand Hyatt Dubai, Dubai', 'score': 18.479773, 'city': 'Dubai', 'country': 'ARE'
+            }
+        ], 'activities': [
+            {'id': '166982', 'altid': '166982', 'name': 'Bateaux Dubai Dinner Cruise', 'score': 22.604973, 'center': {'lat': 25.2, 'lng': 55.3
+                }, 'imageUrl': 'https://s3.amazonaws.com/mediavault.le/media/8d79eb7b8bbe583ac07edc9d737dd58947e57644.jpeg', 'categories': ['Cruises & Water Tours', 'Food & Drink', 'Tours & Sightseeing'], 'location': 'Dubai, ARE, united arab emirates', 'supplierName': 'Alpha Tours', 'teaser': 'For an evening of mouth-watering food, lively entertainment, and stunning skyline views, jump aboard the Bateaux Dubai dinner cruise'}, {'id': '449290', 'altid': '449290', 'name': 'Admission to MOTIONGATE Dubai', 'score': 22.05801, 'center': {'lat': 25.0032325, 'lng': 55.0204019}, 'imageUrl': 'https://cdn.lemediavault.com/images/acb0fb8800cf23be4434e2a84b5b1d5f.jpeg', 'categories': ['Attractions', 'Theme Parks'], 'location': 'Dubai Park & Resorts, Sheikh Zayed Road, Opposite Palm Jebel Ali, Dubai, ARE, united arab emirates', 'supplierName': 'Alpha Tours', 'teaser': 'Immerse yourself in a world of film and fun at MOTIONGATE Dubai'}, {'id': '403750', 'altid': '403750', 'name': 'Dubai Attractions Flexi Pass', 'score': 22.004185, 'center': {'lat': 25.2048493, 'lng': 55.2707828}, 'imageUrl': 'https://s3.amazonaws.com/mediavault.le/media/8bfb438dde6cecd0bf68731f9235b23658e5cf01.jpeg', 'categories': ['Attractions', 'Sightseeing Passes'], 'location': 'Dubai, ARE, united arab emirates', 'supplierName': 'iVenture Card', 'teaser': 'Experience some of the best attractions that Dubai has to offer and save on the price of admission with this convenient flexi pass'}, {'id': '298474', 'altid': '298474', 'name': 'Ice Skating in The Dubai Mall', 'score': 21.601234, 'center': {'lat': 25.196878, 'lng': 55.2794505}, 'imageUrl': 'https://s3.amazonaws.com/mediavault.le/media/5ffcdf9683f4b34982d9381de7e1ab32b9222c7f.jpeg', 'categories': ['Attractions'], 'location': 'The Dubai Mall\r\nFinancial Center Road, Dubai, ARE, united arab emirates', 'supplierName': 'Alpha Tours', 'teaser': 'Beat the heat and get down to The Dubai Mall to ice skate on the Olympic-sized rink'}, {'id': '403760', 'altid': '403760', 'name': 'Dubai Unlimited Attractions Pass', 'score': 21.432451, 'center': {'lat': 25.2048493, 'lng': 55.2707828}, 'imageUrl': 'https://s3.amazonaws.com/mediavault.le/media/2af43196dc122176cc637ad13bd551a52dc5a8fb.jpeg', 'categories': ['Attractions', 'Sightseeing Passes'], 'location': 'Dubai, ARE, united arab emirates', 'supplierName': 'iVenture Card', 'teaser': "Explore some of Dubai's most impressive attractions with an iVenture card that grants you admission to as many sites as you can visit"}, {'id': '361612', 'altid': '361612', 'name': 'Orchestra Dining Experience at Dubai Mall', 'score': 21.284487, 'center': {'lat': 25.196878, 'lng': 55.2794505}, 'imageUrl': 'https://s3.amazonaws.com/mediavault.le/media/e254592432b0e02e5762d022bdd3e8f66c5aad82.jpeg', 'categories': ['Food & Drink'], 'location': 'Dubai Mall, Dubai, ARE, united arab emirates', 'supplierName': 'Gray Line UAE', 'teaser': "Combine your loves of great food and music with a dining experience that's a feast for both your ears and taste buds"}, {'id': '449298', 'altid': '449298', 'name': 'Admission to LEGOLAND Dubai', 'score': 21.090673, 'center': {'lat': 25.0032325, 'lng': 55.0204019}, 'imageUrl': 'https://cdn.lemediavault.com/images/62adaa6349069f9194c6d140c4f712e1.jpeg', 'categories': ['Theme Parks', 'Attractions'], 'location': 'Dubai Parks and Resorts on Sheikh Zayed Road, Opposite Palm Jebel Ali, Dubai, ARE, united arab emirates', 'supplierName': 'Alpha Tours', 'teaser': 'Build up a day of interactive fun at LEGOLAND Dubai'}, {'id': '451365', 'altid': '451365', 'name': 'Dubai Creek Premium Dinner Cruise', 'score': 20.895578, 'center': {'lat': 25.266308, 'lng': 55.308733}, 'imageUrl': 'https://cdn.lemediavault.com/images/b0315aa9440c619c2471f90826616d1d.jpeg', 'categories': ['Cruises & Water Tours', 'Tours & Sightseeing'], 'location': 'Dubai Creek, Dubai, ARE, united arab emirates', 'supplierName': 'Rustar Floating Restaurant LLC', 'teaser': 'Take to the waters of Dubai Creek for a high-quality dinner cruise amid the gleaming waterfront of Dubai'}, {'id': '167272', 'altid': '167272', 'name': 'Dubai Creek Silver Seaplane Experience', 'score': 20.71104, 'center': {'lat': 25.2, 'lng': 55.3}, 'imageUrl': 'https://s3.amazonaws.com/mediavault.le/media/f3ccce55c70770751ac6bb571c5a8ff5ad3f7ffb.jpeg', 'categories': ['Adventures', 'Air, Balloon & Helicopter Tours', 'Tours & Sightseeing'], 'location': 'Dubai, ARE, united arab emirates', 'supplierName': 'Seawings', 'teaser': 'Take off from the water in spectacular style on a seaplane tour over historic Dubai Creek'}, {'id': '466900', 'altid': '466900', 'name': 'Private Half-Day Dubai Sightseeing Tour with Dubai Creek Crossing', 'score': 20.691418, 'center': {'lat': 25.2048493, 'lng': 55.2707828}, 'imageUrl': 'https://cdn.lemediavault.com/images/043e6d0e8861d87e62a310c9efa6defe.jpeg', 'categories': ['Tours & Sightseeing', 'Private Tours'], 'location': 'Dubai, ARE, united arab emirates', 'supplierName': 'Alpha Tours', 'teaser': 'Spend an easy half-day exploring the sights of Dubai with a private guide'}], 'htmls': [{'url': 'http://www.expedia.com/Dubai-Emirate.d1079.Destination-Travel-Guides', 'title': 'Dubai Vacation Packages: Book Cheap Vacations, Travel Deals & Trips to Dubai, United Arab Emirates | Expedia'}, {'url': 'http://www.expedia.com/Dubai-Marina.d6147415.Destination-Travel-Guides', 'title': 'Dubai Marina Vacations 2017: Package & Save up to $603 | Expedia'}, {'url': 'http://www.expedia.com/Dubai-World-Central.d6344354.Destination-Travel-Guides', 'title': 'Dubai World Central Vacations 2017: Package & Save up to $603 | Expedia'}, {'url': 'http://www.expedia.com/Dubai.d1079.Destination-Travel-Guides', 'title': 'Dubai Vacation Packages: Book Cheap Vacations, Travel Deals & Trips to Dubai, United Arab Emirates | Expedia'}, {'url': 'http://www.expedia.com/Downtown-Dubai.d6142656.Destination-Travel-Guides', 'title': 'Downtown Dubai Vacations 2017: Package & Save up to $603 | Expedia'}, {'url': 'http://www.expedia.com/United-Arab-Emirates.d189.Destination-Travel-Guides', 'title': 'United Arab Emirates Vacations 2017: Explore Cheap Vacation Packages | Expedia'}, {'url': 'http://www.expedia.com/Middle-East.d6023182.Destination-Travel-Guides', 'title': 'Middle East Vacations 2017: Explore Cheap Vacation Packages | Expedia'}, {'url': 'http://www.expedia.com/Jebel-Ali.d6144512.Destination-Travel-Guides', 'title': 'Jebel Ali Vacations 2017: Package & Save up to $603 | Expedia'}, {'url': 'http://www.expedia.com/Walsingham.d170959.Destination-Travel-Guides', 'title': 'Walsingham Vacations 2017: Package & Save up to $603 | Expedia'}, {'url': 'http://www.expedia.com/Nyaung-U.d2627.Destination-Travel-Guides', 'title': 'Nyaung-U Vacations 2017: Package & Save up to $603 | Expedia'}]}, 'debug': {'globalsearch': {}}}

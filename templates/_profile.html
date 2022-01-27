@@ -1,0 +1,68 @@
+{% extends "index.html" %}
+
+{% block content %}
+<br>
+<br>
+<br>
+<br>
+<div class="ui container">
+    <div class="row">
+        <div class="ui fluid icon input focus">
+            <input type="text" placeholder="Search friends...">
+            <i class="inverted circular search link icon"></i>
+        </div>
+    </div>
+    <br>
+    <div class="ui grid">
+        <div class="four wide column">
+            <div class="row">
+                <div class="ui cards">
+                    <div class="card">
+                        <div class="content">
+                            <img class="right floated mini ui image" src="static/images/sudhakar.png">
+                            <div class="header">
+                                Sudhakar Camilos
+                            </div>
+                            <div class="meta">
+                                @sudhakar
+                            </div>
+                            <div class="description">
+                                Travel to code..
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <a href='/create' class="ui right floated button positive">Create New
+                                Trip</a>
+                        </div>
+                        <div class="extra content">
+                            <div class="header">
+                                Friends
+                            </div>
+                            <br>
+                            <div class="ui grid">
+                                {% for i in range(4,16)%}
+                                <div class="four wide column">
+                                    <img class="ui mini image" src="static/images/{{i}}.jpg">
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="twelve wide column">
+
+            <div class="ui divided items">
+                {% block requests %}{% endblock %}
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+</div>
+{% endblock %}

@@ -1,0 +1,95 @@
+{% extends "_profile.html" %}
+
+{% block requests %}
+<div class="ui steps">
+    <div class="step">
+        <!-- <i class="truck icon"></i> -->
+        <div class="content">
+            <div class="title">Create New Trip</div>
+            <!-- <div class="description">Choose your shipping options</div> -->
+        </div>
+    </div>
+    <div class="active step">
+        <!-- <i class="payment icon"></i> -->
+        <div class="content">
+            <div class="title">Select Flights</div>
+            <!-- <div class="description">Enter billing information</div> -->
+        </div>
+    </div>
+    <div class="step">
+        <!-- <i class="info icon"></i> -->
+        <div class="content">
+            <div class="title">Select Hotels</div>
+        </div>
+    </div>
+    <div class="step">
+        <!-- <i class="info icon"></i> -->
+        <div class="content">
+            <div class="title">Add Attractions</div>
+        </div>
+    </div>
+    <div class="step">
+        <!-- <i class="info icon"></i> -->
+        <div class="content">
+            <div class="title">Review & Publish</div>
+        </div>
+    </div>
+</div>
+<div class="twelve wide column">
+    <div class="ui middle aligned list">
+        {% for offer in data %}
+        <div class="ui segments">
+            <div class="ui segment">
+                <div class="item">
+                    <!-- <div class="header"><b>{{offer['id']}}</b> </div> -->
+                    <div class="ui huge horizontal divided list">
+
+                        <div class="item">
+                            <div class="content">
+                                {% for key,value in offer.items() %}
+                                    {% for k in value %}
+                                        <div class="header">{{k['segments']}}</div>
+                                    {% endfor %}
+                                {% endfor %}
+                                <!-- <div class="header">{{offer['services'] }}</div> -->
+                            </div>
+                        </div>
+                        <!-- <div class="item">
+                            <img class="ui mini image" src="static/images/delta.png">
+                            <div class="content">
+                                <div class="header">{{offer.origin}}</div>
+                                {{offer.dept_date}} , {{offer.dept_time}}
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="ui mini image" src="static/images/delta.png">
+                            <div class="content">
+                                <div class="header">{{offer.destination}}</div>
+                                {{offer.arr_date}} , {{offer.arr_time}}
+                            </div>
+                        </div> -->
+                    </div>
+                    <br>
+                    <!-- <div class="ui large form">
+                        <form class="ui form"
+                            action='/add_hotels/{{offer.offer_id}}/{{session_id}}/{{offer.destination}}' method='POST'>
+                            <div class="ui button blue">{{offer['tot_amt']}}</div>
+                            <button class="ui right floated button positive" type="submit">Select</button>
+                        </form>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+
+
+
+
+
+<br>
+<br>
+<br>
+{% endblock %}

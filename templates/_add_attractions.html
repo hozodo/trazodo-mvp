@@ -1,0 +1,86 @@
+{% extends "_profile.html" %}
+
+{% block requests %}
+<div class="ui steps">
+        <div class="step">
+            <!-- <i class="truck icon"></i> -->
+            <div class="content">
+                <div class="title">Create New Trip</div>
+                <!-- <div class="description">Choose your shipping options</div> -->
+            </div>
+        </div>
+        <div class="step">
+            <!-- <i class="payment icon"></i> -->
+            <div class="content">
+                <div class="title">Select Flights</div>
+                <!-- <div class="description">Enter billing information</div> -->
+            </div>
+        </div>
+        <div class="step">
+            <!-- <i class="info icon"></i> -->
+            <div class="content">
+                <div class="title">Select Hotels</div>
+            </div>
+        </div>
+        <div class="active step">
+            <!-- <i class="info icon"></i> -->
+            <div class="content">
+                <div class="title">Add Attractions</div>
+            </div>
+        </div>
+        <div class="step">
+            <!-- <i class="info icon"></i> -->
+            <div class="content">
+                <div class="title">Review & Publish</div>
+            </div>
+        </div>
+    </div>
+<div class="twelve wide column">
+    <form class="ui form" action='/publish/{{session_id}}' method='POST'>
+        <button class="ui right floated button positive" type="submit">Add Selected</button>
+    </form>
+    <div class="header">
+        <h3>Add attractions</h3>
+    </div>
+    <h4 class="ui dividing header"></h4>
+    <div class="ui middle aligned list">
+        <div class="ui grid container">
+            <div class="row">
+                <div class="ui grid">
+                    {% for attraction in response %}
+                    <div class="four wide column">
+                        <div class="ui card">
+                            <div class="image">
+                                <img src={{attraction.imageUrl}}>
+                            </div>
+                            <div class="content">
+                                <a class="header">{{attraction.name}}</a>
+                                <div class="meta">
+                                    <span class="date">{{attraction.score}}</span>
+                                </div>
+                                <!-- <div class="description">
+                                    {{attraction.teaser}}
+                                </div> -->
+                            </div>
+                            <div class="extra content">
+                                <!-- <a href='/add_attractions' class="ui right floated button blue">Add This</a> -->
+                                <div class="field">
+                                    <div class="ui checkbox">
+                                        <input type="checkbox" tabindex="0">
+                                        <label>Add this to trip</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+</div>
+{% endblock %}

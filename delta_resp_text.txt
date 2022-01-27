@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AirShoppingRS xmlns="http://www.iata.org/IATA/2015/00/2018.1/AirShoppingRS"><Error><Code>118</Code><DescText>Schema Validation Error in Request -</DescText></Error></AirShoppingRS>

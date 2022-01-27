@@ -1,0 +1,103 @@
+{% extends "_profile.html" %}
+
+{% block requests %}
+
+<div class="ui steps">
+    <div class="active step">
+        <!-- <i class="truck icon"></i> -->
+        <div class="content">
+            <div class="title">Create New Trip</div>
+            <!-- <div class="description">Choose your shipping options</div> -->
+        </div>
+    </div>
+    <div class="step">
+        <!-- <i class="payment icon"></i> -->
+        <div class="content">
+            <div class="title">Select Flights</div>
+            <!-- <div class="description">Enter billing information</div> -->
+        </div>
+    </div>
+    <div class="step">
+        <!-- <i class="info icon"></i> -->
+        <div class="content">
+            <div class="title">Select Hotels</div>
+        </div>
+    </div>
+    <div class="step">
+        <!-- <i class="info icon"></i> -->
+        <div class="content">
+            <div class="title">Add Attractions</div>
+        </div>
+    </div>
+    <div class="step">
+        <!-- <i class="info icon"></i> -->
+        <div class="content">
+            <div class="title">Review & Publish</div>
+        </div>
+    </div>
+</div>
+<div class="twelve wide column">
+    <!-- <div class="header">
+        <h3>Create a new trip</h3>
+    </div> -->
+    <div class="ui segment">
+        <form class="ui form" action='/flight_offers' method='POST'>
+            <h4 class="ui dividing header">Trip Information</h4>
+            <div class="field">
+                <label>Trip Name & Type</label>
+                <div class="two fields">
+                    <div class="field">
+                        <input type="text" name="trip_name" placeholder="Trip Name">
+                    </div>
+                    <div class="field">
+                        <input type="text" name="trip_type" placeholder="Trip Type">
+                    </div>
+                </div>
+                <label>Starting Point & Destination</label>
+                <div class="two fields">
+                    <div class="field">
+                        <input type="text" name="origin" placeholder="Starting From">
+                    </div>
+                    <div class="field">
+                        <input type="text" name="destination" placeholder="Destination">
+                    </div>
+                </div>
+                <label>Group Size & Group Type</label>
+                <div class="two fields">
+                    <div class="field">
+                        <input type="text" name="group_size" placeholder="Group Size">
+                    </div>
+                    <div class="field">
+                        <input type="text" name="group_type" placeholder="Group Type">
+                    </div>
+                </div>
+            </div>
+            <h4 class="ui dividing header">Dates</h4>
+            <div class="field">
+                <div class="two fields">
+                    <div class="field">
+                        <input type="date" name="owdate" max="3000-12-31" min="1000-01-01">
+                    </div>
+                    <div class="field">
+                        <input type="date" name="rtdate" max="3000-12-31" min="1000-01-01">
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <div class="ui radio">
+                    <input type="radio" tabindex="0">
+                    <label>Friends only</label>
+                </div>
+            </div>
+            <div class="field">
+                <div class="ui radio">
+                    <input type="radio" tabindex="1">
+                    <label>Open to all</label>
+                </div>
+            </div>
+            <button class="ui button right positive" type="submit">Create</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

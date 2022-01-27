@@ -1,0 +1,19 @@
+{% extends "_profile.html" %}
+{% block requests %}
+{% include "_profile_menu.html" %}
+{% for friend in friends %}
+<div class="item">
+    <div class="ui tiny image">
+        <img src="static/images/{{range(1,8)|random}}.jpg">
+    </div>
+    <div class="content">
+        <h3>{{friend}}</h3>
+        <div class='meta'>
+            <h4>@{{friend}}</h4>
+        </div>
+        <button class="ui right floated button blue">Accept Request</button>
+    </div>
+</div>
+{% endfor%}
+
+{% endblock %}
